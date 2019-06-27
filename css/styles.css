@@ -1,0 +1,1142 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
+@font-face {
+  font-family: 'AthenaoftheOcean';
+  src: url("fonts/AthenaoftheOcean.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'EnglishwithIndianRupee';
+  src: url("../fonts/EnglishwithIndianRupee.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden; }
+
+body {
+  font-family: "Montserrat SemiBold", sans-serif;
+  background-color: #ffffff;
+  max-width: 100vw;
+  max-width: 1920px;
+  overflow-x: hidden; }
+  body header nav {
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0 55px;
+    background-color: transparent; }
+    @media (min-width: 375px) and (max-width: 375px) {
+      body header nav {
+        flex-flow: column; } }
+    @media (min-width: 375px) and (max-width: 375px) {
+      body header nav .logo {
+        font-size: 120px;
+        padding-top: 0px; } }
+    body header nav .logo a {
+      font-family: "AthenaoftheOcean", sans-serif;
+      text-decoration: none;
+      font-size: 150px;
+      color: #ffffff;
+      line-height: 10px; }
+      @media (min-width: 1441px) and (max-width: 1600px) {
+        body header nav .logo a {
+          font-size: 80px; } }
+      @media (min-width: 375px) and (max-width: 375px) {
+        body header nav .logo a {
+          font-size: 120px;
+          padding-top: 80px; } }
+    body header nav .menu ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between; }
+      @media (min-width: 375px) and (max-width: 375px) {
+        body header nav .menu ul {
+          flex-flow: column;
+          padding: 0; } }
+      body header nav .menu ul li {
+        display: inline-block;
+        list-style-type: none; }
+        @media (min-width: 375px) and (max-width: 375px) {
+          body header nav .menu ul li {
+            padding: 2px 0; } }
+        body header nav .menu ul li a {
+          text-decoration: none;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 600;
+          font-size: 24px;
+          text-transform: uppercase;
+          color: #ffffff; }
+          @media (min-width: 375px) and (max-width: 375px) {
+            body header nav .menu ul li a {
+              font-size: 20px; } }
+        body header nav .menu ul li .dot {
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background-color: #ffffff;
+          margin: 0 50px; }
+  body main .hero {
+    max-width: 100%;
+    height: 1080px;
+    background: url("../img/hero-bg.jpg");
+    background-size: cover;
+    margin-top: -180px; }
+    @media (min-width: 375px) and (max-width: 375px) {
+      body main .hero {
+        height: 100%; } }
+    body main .hero h1 {
+      font-family: "AthenaoftheOcean", sans-serif;
+      text-align: center;
+      color: #ffffff;
+      font-size: 450px;
+      margin: 0;
+      padding-top: 190px;
+      font-weight: normal; }
+      @media (min-width: 375px) and (max-width: 375px) {
+        body main .hero h1 {
+          display: none; } }
+    body main .hero h3 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      margin-top: 43px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 94px;
+      text-transform: uppercase;
+      letter-spacing: 20px; }
+      @media (min-width: 375px) and (max-width: 375px) {
+        body main .hero h3 {
+          font-size: 36px;
+          letter-spacing: 8px;
+          padding-top: 375px;
+          padding-bottom: 100px;
+          margin: 0; } }
+  body main .reservations-about-bg {
+    max-width: 100%;
+    width: 100%;
+    height: 690px;
+    background-color: #f6f4f1;
+    padding: 1px 0; }
+    body main .reservations-about-bg .reservations-about {
+      max-width: 100%;
+      height: 100%;
+      position: relative;
+      margin: -56px 0; }
+      body main .reservations-about-bg .reservations-about .ba-container {
+        border-radius: 5px;
+        border: none;
+        margin: 0 auto;
+        margin-top: -60px;
+        z-index: 1; }
+        body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top {
+          max-width: 100%;
+          height: 100%;
+          border-radius: 5%;
+          border: none;
+          display: flex;
+          flex-direction: row;
+          align-items: center; }
+          @media (min-width: 375px) and (max-width: 375px) {
+            body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top {
+              flex-direction: column; } }
+          body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .reservations {
+            width: 37%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center; }
+            @media (min-width: 375px) and (max-width: 375px) {
+              body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .reservations {
+                width: 100%; } }
+            body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .reservations .reservations-info {
+              width: 100%;
+              height: 403px;
+              background-color: #ffffff;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-around; }
+              body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .reservations .reservations-info h4 {
+                font-family: "AthenaoftheOcean", sans-serif;
+                color: #fc4263;
+                font-size: 168px;
+                font-weight: normal;
+                margin: 0;
+                margin-top: -40px; }
+                @media (min-width: 375px) and (max-width: 375px) {
+                  body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .reservations .reservations-info h4 {
+                    font-size: 140px; } }
+              body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .reservations .reservations-info p {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                color: #a7a7a7;
+                font-size: 21px;
+                line-height: 32px;
+                text-align: center;
+                margin-top: -40px;
+                padding: 0 20px;
+                letter-spacing: 1.2px;
+                margin-bottom: 0; }
+                @media (min-width: 1441px) and (max-width: 1600px) {
+                  body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .reservations .reservations-info p {
+                    font-size: 18px;
+                    letter-spacing: 0.5px; } }
+              body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .reservations .reservations-info button {
+                width: 320px;
+                height: 70px;
+                border-radius: 3px;
+                border: 2px solid #fc4263;
+                background-color: #ffffff;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                text-transform: uppercase;
+                font-size: 24px;
+                color: #fc4263;
+                margin-bottom: 10px; }
+            body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .reservations .reservations-photo {
+              width: 100%;
+              height: 403px;
+              background: url("../img/res-photo.png") center center no-repeat;
+              background-size: cover; }
+          body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .about {
+            width: 63%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center; }
+            @media (min-width: 375px) and (max-width: 375px) {
+              body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .about {
+                width: 100%; } }
+            body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .about .about-photo {
+              width: 100%;
+              height: 403px;
+              background: url("../img/about-photo.png") center center no-repeat;
+              background-size: cover; }
+            body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .about .about-info {
+              width: 100%;
+              height: 403px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-around;
+              background-color: #ffffff; }
+              body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .about .about-info h4 {
+                font-family: "AthenaoftheOcean", sans-serif;
+                color: #fc4263;
+                font-size: 168px;
+                font-weight: normal;
+                margin: 0;
+                margin-top: -30px; }
+              body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .about .about-info p {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                color: #a7a7a7;
+                font-size: 21px;
+                line-height: 32px;
+                text-align: center;
+                margin-top: -50px;
+                padding: 0 20px;
+                letter-spacing: 1.2px; }
+                @media (min-width: 1441px) and (max-width: 1600px) {
+                  body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .about .about-info p {
+                    font-size: 18px;
+                    letter-spacing: 0.5px; } }
+                @media (min-width: 375px) and (max-width: 375px) {
+                  body main .reservations-about-bg .reservations-about .ba-container .reservations-about-top .about .about-info p {
+                    font-size: 14px; } }
+  body main .our-specialities {
+    max-width: 100%;
+    height: 900px;
+    margin-top: -55px; }
+    body main .our-specialities .specialities-photo {
+      width: 100%;
+      height: 100%;
+      background: url("../img/our-sps.png") center center no-repeat;
+      background-size: cover;
+      display: block; }
+      body main .our-specialities .specialities-photo h2 {
+        font-family: "AthenaoftheOcean", sans-serif;
+        color: #ffffff;
+        font-size: 297px;
+        padding-top: 145px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: normal;
+        line-height: 190px; }
+  body main .dishes-bg {
+    max-width: 100%;
+    width: 100%;
+    height: 690px;
+    background-color: #f6f4f1;
+    padding: 1px 0; }
+    @media (min-width: 375px) and (max-width: 375px) {
+      body main .dishes-bg {
+        height: 100%; } }
+    body main .dishes-bg .dishes {
+      max-width: 100%;
+      height: 826px;
+      margin-top: -56px; }
+      @media (min-width: 375px) and (max-width: 375px) {
+        body main .dishes-bg .dishes {
+          height: 100%; } }
+      body main .dishes-bg .dishes .ba-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: -75px;
+        z-index: 1; }
+        body main .dishes-bg .dishes .ba-container .first-row {
+          width: 100%;
+          height: 50%;
+          display: flex;
+          flex-direction: row;
+          align-items: center; }
+          @media (min-width: 375px) and (max-width: 375px) {
+            body main .dishes-bg .dishes .ba-container .first-row {
+              flex-direction: column;
+              height: 100%; } }
+          body main .dishes-bg .dishes .ba-container .first-row .dish {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 50%;
+            height: 100%; }
+            @media (min-width: 375px) and (max-width: 375px) {
+              body main .dishes-bg .dishes .ba-container .first-row .dish {
+                width: 100%;
+                flex-direction: column; } }
+            body main .dishes-bg .dishes .ba-container .first-row .dish .dish-info {
+              width: 50%;
+              height: 100%;
+              text-align: center;
+              background-color: #ffffff;
+              margin: 20px 0; }
+              @media (min-width: 375px) and (max-width: 375px) {
+                body main .dishes-bg .dishes .ba-container .first-row .dish .dish-info {
+                  width: 100%;
+                  margin: 0; } }
+              body main .dishes-bg .dishes .ba-container .first-row .dish .dish-info h5 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 600;
+                font-size: 30px;
+                text-transform: uppercase;
+                margin-top: 95px;
+                letter-spacing: 4px;
+                margin-top: 95px; }
+              body main .dishes-bg .dishes .ba-container .first-row .dish .dish-info p {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-size: 24px;
+                color: #474747;
+                text-align: center;
+                margin-top: -22px;
+                padding: 0 15px;
+                letter-spacing: 1.5px;
+                line-height: 35px; }
+                @media (min-width: 1441px) and (max-width: 1600px) {
+                  body main .dishes-bg .dishes .ba-container .first-row .dish .dish-info p {
+                    font-size: 18px; } }
+                @media (min-width: 375px) and (max-width: 375px) {
+                  body main .dishes-bg .dishes .ba-container .first-row .dish .dish-info p {
+                    font-size: 21px; } }
+              body main .dishes-bg .dishes .ba-container .first-row .dish .dish-info h6 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                color: #fc4263;
+                text-transform: uppercase;
+                margin-top: 36px;
+                letter-spacing: 4.5px; }
+                body main .dishes-bg .dishes .ba-container .first-row .dish .dish-info h6 span {
+                  font-family: "EnglishwithIndianRupee", sans-serif !important;
+                  font-size: 24px;
+                  color: #fc4263; }
+            body main .dishes-bg .dishes .ba-container .first-row .dish .lazagna-photo {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              width: 50%;
+              height: 100%;
+              background: url("../img/lazagna.png") center center no-repeat;
+              background-size: cover; }
+              @media (min-width: 375px) and (max-width: 375px) {
+                body main .dishes-bg .dishes .ba-container .first-row .dish .lazagna-photo {
+                  width: 100%;
+                  flex-direction: column;
+                  padding-top: 100%; } }
+          body main .dishes-bg .dishes .ba-container .first-row .pizza {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 50%;
+            height: 100%; }
+            @media (min-width: 375px) and (max-width: 375px) {
+              body main .dishes-bg .dishes .ba-container .first-row .pizza {
+                width: 100%;
+                flex-direction: column; } }
+            body main .dishes-bg .dishes .ba-container .first-row .pizza .dish-info {
+              width: 50%;
+              height: 100%;
+              text-align: center;
+              background-color: #ffffff;
+              margin: 20px 0; }
+              @media (min-width: 375px) and (max-width: 375px) {
+                body main .dishes-bg .dishes .ba-container .first-row .pizza .dish-info {
+                  width: 100%;
+                  margin: 0; } }
+              body main .dishes-bg .dishes .ba-container .first-row .pizza .dish-info h5 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 600;
+                font-size: 30px;
+                text-transform: uppercase;
+                margin-top: 95px;
+                letter-spacing: 4px;
+                margin-top: 95px; }
+              body main .dishes-bg .dishes .ba-container .first-row .pizza .dish-info p {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-size: 24px;
+                color: #474747;
+                text-align: center;
+                margin-top: -22px;
+                padding: 0 15px;
+                letter-spacing: 1.5px;
+                line-height: 35px; }
+                @media (min-width: 1441px) and (max-width: 1600px) {
+                  body main .dishes-bg .dishes .ba-container .first-row .pizza .dish-info p {
+                    font-size: 18px; } }
+                @media (min-width: 375px) and (max-width: 375px) {
+                  body main .dishes-bg .dishes .ba-container .first-row .pizza .dish-info p {
+                    font-size: 21px; } }
+              body main .dishes-bg .dishes .ba-container .first-row .pizza .dish-info h6 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                color: #fc4263;
+                text-transform: uppercase;
+                margin-top: 36px;
+                letter-spacing: 4.5px; }
+                body main .dishes-bg .dishes .ba-container .first-row .pizza .dish-info h6 span {
+                  font-family: "EnglishwithIndianRupee", sans-serif !important;
+                  font-size: 24px;
+                  color: #fc4263; }
+            body main .dishes-bg .dishes .ba-container .first-row .pizza .pizza-photo {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              width: 50%;
+              height: 100%;
+              background: url("../img/pizza.png") center center no-repeat;
+              background-size: cover; }
+              @media (min-width: 375px) and (max-width: 375px) {
+                body main .dishes-bg .dishes .ba-container .first-row .pizza .pizza-photo {
+                  width: 100%;
+                  flex-direction: column;
+                  padding-top: 100%; } }
+        body main .dishes-bg .dishes .ba-container .second-row {
+          width: 100%;
+          height: 50%;
+          display: flex;
+          flex-direction: row;
+          align-items: center; }
+          @media (min-width: 375px) and (max-width: 375px) {
+            body main .dishes-bg .dishes .ba-container .second-row {
+              flex-direction: column;
+              height: 100%; } }
+          body main .dishes-bg .dishes .ba-container .second-row .idlis {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 50%;
+            height: 100%; }
+            @media (min-width: 375px) and (max-width: 375px) {
+              body main .dishes-bg .dishes .ba-container .second-row .idlis {
+                width: 100%;
+                flex-direction: column; } }
+            body main .dishes-bg .dishes .ba-container .second-row .idlis .idlis-photo {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              width: 50%;
+              height: 100%;
+              background: url("../img/idlis.png") center center no-repeat;
+              background-size: cover; }
+              @media (min-width: 375px) and (max-width: 375px) {
+                body main .dishes-bg .dishes .ba-container .second-row .idlis .idlis-photo {
+                  width: 100%;
+                  flex-direction: column;
+                  padding-top: 100%; } }
+            body main .dishes-bg .dishes .ba-container .second-row .idlis .dish-info {
+              width: 50%;
+              height: 100%;
+              text-align: center;
+              background-color: #ffffff;
+              margin: 20px 0; }
+              @media (min-width: 375px) and (max-width: 375px) {
+                body main .dishes-bg .dishes .ba-container .second-row .idlis .dish-info {
+                  width: 100%;
+                  margin: 0; } }
+              body main .dishes-bg .dishes .ba-container .second-row .idlis .dish-info h5 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 600;
+                font-size: 30px;
+                text-transform: uppercase;
+                margin-top: 95px;
+                letter-spacing: 4px;
+                margin-top: 95px; }
+              body main .dishes-bg .dishes .ba-container .second-row .idlis .dish-info p {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-size: 24px;
+                color: #474747;
+                text-align: center;
+                margin-top: -22px;
+                padding: 0 15px;
+                letter-spacing: 1.5px;
+                line-height: 35px; }
+                @media (min-width: 1441px) and (max-width: 1600px) {
+                  body main .dishes-bg .dishes .ba-container .second-row .idlis .dish-info p {
+                    font-size: 18px; } }
+                @media (min-width: 375px) and (max-width: 375px) {
+                  body main .dishes-bg .dishes .ba-container .second-row .idlis .dish-info p {
+                    font-size: 21px; } }
+              body main .dishes-bg .dishes .ba-container .second-row .idlis .dish-info h6 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                color: #fc4263;
+                text-transform: uppercase;
+                margin-top: 36px;
+                letter-spacing: 4.5px; }
+                body main .dishes-bg .dishes .ba-container .second-row .idlis .dish-info h6 span {
+                  font-family: "EnglishwithIndianRupee", sans-serif !important;
+                  font-size: 24px;
+                  color: #fc4263; }
+          body main .dishes-bg .dishes .ba-container .second-row .burger {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 50%;
+            height: 100%; }
+            @media (min-width: 375px) and (max-width: 375px) {
+              body main .dishes-bg .dishes .ba-container .second-row .burger {
+                width: 100%;
+                flex-direction: column; } }
+            body main .dishes-bg .dishes .ba-container .second-row .burger .burger-photo {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              width: 50%;
+              height: 100%;
+              background: url("../img/burger.png") center center no-repeat;
+              background-size: cover; }
+              @media (min-width: 375px) and (max-width: 375px) {
+                body main .dishes-bg .dishes .ba-container .second-row .burger .burger-photo {
+                  width: 100%;
+                  flex-direction: column;
+                  padding-top: 100%; } }
+            body main .dishes-bg .dishes .ba-container .second-row .burger .dish-info {
+              width: 50%;
+              height: 100%;
+              text-align: center;
+              background-color: #ffffff;
+              margin: 20px 0; }
+              @media (min-width: 375px) and (max-width: 375px) {
+                body main .dishes-bg .dishes .ba-container .second-row .burger .dish-info {
+                  width: 100%;
+                  margin: 0; } }
+              body main .dishes-bg .dishes .ba-container .second-row .burger .dish-info h5 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 600;
+                font-size: 30px;
+                text-transform: uppercase;
+                margin-top: 95px;
+                letter-spacing: 4px;
+                margin-top: 95px; }
+              body main .dishes-bg .dishes .ba-container .second-row .burger .dish-info p {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-size: 24px;
+                color: #474747;
+                text-align: center;
+                margin-top: -22px;
+                padding: 0 15px;
+                letter-spacing: 1.5px;
+                line-height: 35px; }
+                @media (min-width: 1441px) and (max-width: 1600px) {
+                  body main .dishes-bg .dishes .ba-container .second-row .burger .dish-info p {
+                    font-size: 18px; } }
+                @media (min-width: 375px) and (max-width: 375px) {
+                  body main .dishes-bg .dishes .ba-container .second-row .burger .dish-info p {
+                    font-size: 21px; } }
+              body main .dishes-bg .dishes .ba-container .second-row .burger .dish-info h6 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                color: #fc4263;
+                text-transform: uppercase;
+                margin-top: 36px;
+                letter-spacing: 4.5px; }
+                body main .dishes-bg .dishes .ba-container .second-row .burger .dish-info h6 span {
+                  font-family: "EnglishwithIndianRupee", sans-serif !important;
+                  font-size: 24px;
+                  color: #fc4263; }
+  body main .barbeque {
+    max-width: 100%;
+    height: 1085px;
+    margin-top: -77px; }
+    body main .barbeque .barbeque-photo {
+      width: 100%;
+      height: 1085px;
+      background: url("../img/barbeque.png") center center no-repeat;
+      background-size: cover; }
+  body main .menu {
+    max-width: 100%;
+    height: 1710px;
+    background: url("../img/menu-bg.png") center center no-repeat;
+    margin-top: 40px; }
+    @media (min-width: 375px) and (max-width: 375px) {
+      body main .menu {
+        display: none; } }
+    body main .menu .ba-container {
+      padding: 0 55px; }
+      body main .menu .ba-container h2 {
+        font-family: "AthenaoftheOcean", sans-serif;
+        font-size: 210px;
+        font-weight: normal;
+        text-align: center;
+        margin-top: -30px; }
+      body main .menu .ba-container .line {
+        width: 140px;
+        height: 2px;
+        border: 1px solid #fc4263;
+        margin: 0 auto;
+        margin-top: -177px; }
+      body main .menu .ba-container .fanda {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+        margin: 30px;
+        padding-top: 35px;
+        text-transform: uppercase;
+        color: #878787;
+        letter-spacing: 2px; }
+      body main .menu .ba-container .food-appetizers-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        margin-top: -30px;
+        padding-top: 30px; }
+        body main .menu .ba-container .food-appetizers-info .abs {
+          position: absolute; }
+          @media (min-width: 0px) and (max-width: 1919px) {
+            body main .menu .ba-container .food-appetizers-info .abs {
+              display: none; } }
+        body main .menu .ba-container .food-appetizers-info .item1 {
+          width: 338px;
+          height: 463px;
+          background: url("../img/item1.png") center no-repeat;
+          top: -470px;
+          left: -190px; }
+        body main .menu .ba-container .food-appetizers-info .item2 {
+          width: 189px;
+          height: 408px;
+          background: url("../img/item2.png") center no-repeat;
+          top: 260px;
+          left: -190px; }
+        body main .menu .ba-container .food-appetizers-info .item3 {
+          width: 311px;
+          height: 361px;
+          background: url("../img/item3.png") center no-repeat;
+          top: -316px;
+          left: 1420px; }
+          @media (min-width: 1441px) and (max-width: 1600px) {
+            body main .menu .ba-container .food-appetizers-info .item3 {
+              left: 1120px; } }
+        body main .menu .ba-container .food-appetizers-info .item4 {
+          width: 147px;
+          height: 312px;
+          background: url("../img/item4.png") center no-repeat;
+          top: 370px;
+          left: 1585px; }
+          @media (min-width: 1441px) and (max-width: 1600px) {
+            body main .menu .ba-container .food-appetizers-info .item4 {
+              left: 1285px; } }
+        body main .menu .ba-container .food-appetizers-info .item5 {
+          width: 290px;
+          height: 551px;
+          background: url("../img/item5.png") center no-repeat;
+          top: 360px;
+          left: -190px; }
+        body main .menu .ba-container .food-appetizers-info .item6 {
+          width: 326px;
+          height: 318px;
+          background: url("../img/item6.png") center no-repeat;
+          top: 440px;
+          left: 660px; }
+          @media (min-width: 1441px) and (max-width: 1600px) {
+            body main .menu .ba-container .food-appetizers-info .item6 {
+              left: 820px; } }
+        body main .menu .ba-container .food-appetizers-info .item7 {
+          width: 286px;
+          height: 381px;
+          background: url("../img/item7.png") center no-repeat;
+          top: 420px;
+          left: 1445px; }
+          @media (min-width: 1441px) and (max-width: 1600px) {
+            body main .menu .ba-container .food-appetizers-info .item7 {
+              left: 1145px; } }
+        body main .menu .ba-container .food-appetizers-info .fa-col-one {
+          width: 42%;
+          margin: -20px 30px 0 20px; }
+          body main .menu .ba-container .food-appetizers-info .fa-col-one .menu-item {
+            height: 85px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 55px; }
+            body main .menu .ba-container .food-appetizers-info .fa-col-one .menu-item .description {
+              height: 100%;
+              width: 72%; }
+              body main .menu .ba-container .food-appetizers-info .fa-col-one .menu-item .description h6 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 600;
+                font-size: 27px;
+                text-align: left;
+                text-transform: uppercase;
+                margin: 0; }
+              body main .menu .ba-container .food-appetizers-info .fa-col-one .menu-item .description p {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                text-align: left;
+                color: #393939;
+                margin-top: 20px; }
+            body main .menu .ba-container .food-appetizers-info .fa-col-one .menu-item .price {
+              width: 18%;
+              font-family: "Montserrat", sans-serif;
+              font-weight: 700;
+              font-size: 85px;
+              text-align: center;
+              color: #fc4263; }
+              body main .menu .ba-container .food-appetizers-info .fa-col-one .menu-item .price span {
+                font-family: "EnglishwithIndianRupee", sans-serif;
+                font-size: 60px;
+                color: #fc4263;
+                vertical-align: text-top;
+                line-height: 1.5; }
+      body main .menu .ba-container .deserts {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+        margin: 40px;
+        padding-top: 85px;
+        text-transform: uppercase;
+        color: #878787;
+        letter-spacing: 2px; }
+      body main .menu .ba-container .desert-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        margin-top: -60px;
+        padding-top: 50px; }
+        body main .menu .ba-container .desert-info .abs {
+          position: absolute; }
+          @media (min-width: 0px) and (max-width: 1919px) {
+            body main .menu .ba-container .desert-info .abs {
+              display: none; } }
+        body main .menu .ba-container .desert-info .item1 {
+          width: 338px;
+          height: 463px;
+          background: url("../img/item1.png") center no-repeat;
+          top: -470px;
+          left: -190px; }
+        body main .menu .ba-container .desert-info .item2 {
+          width: 189px;
+          height: 408px;
+          background: url("../img/item2.png") center no-repeat;
+          top: 260px;
+          left: -190px; }
+        body main .menu .ba-container .desert-info .item3 {
+          width: 311px;
+          height: 361px;
+          background: url("../img/item3.png") center no-repeat;
+          top: -316px;
+          left: 1420px; }
+        body main .menu .ba-container .desert-info .item4 {
+          width: 147px;
+          height: 312px;
+          background: url("../img/item4.png") center no-repeat;
+          top: 370px;
+          left: 1585px; }
+        body main .menu .ba-container .desert-info .item5 {
+          width: 290px;
+          height: 551px;
+          background: url("../img/item5.png") center no-repeat;
+          top: 360px;
+          left: -190px; }
+        body main .menu .ba-container .desert-info .item6 {
+          width: 326px;
+          height: 318px;
+          background: url("../img/item6.png") center no-repeat;
+          top: 440px;
+          left: 660px; }
+          @media (min-width: 1441px) and (max-width: 1600px) {
+            body main .menu .ba-container .desert-info .item6 {
+              left: 360px; } }
+        body main .menu .ba-container .desert-info .item7 {
+          width: 286px;
+          height: 381px;
+          background: url("../img/item7.png") center no-repeat;
+          top: 420px;
+          left: 1445px; }
+          @media (min-width: 1441px) and (max-width: 1600px) {
+            body main .menu .ba-container .desert-info .item7 {
+              left: 1145px; } }
+        body main .menu .ba-container .desert-info .fa-col-one {
+          width: 42%;
+          margin: -20px 30px 0 20px; }
+          body main .menu .ba-container .desert-info .fa-col-one .menu-item {
+            height: 85px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 55px; }
+            body main .menu .ba-container .desert-info .fa-col-one .menu-item .description {
+              height: 100%;
+              width: 72%; }
+              body main .menu .ba-container .desert-info .fa-col-one .menu-item .description h6 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 600;
+                font-size: 27px;
+                text-align: left;
+                text-transform: uppercase;
+                margin: 0; }
+              body main .menu .ba-container .desert-info .fa-col-one .menu-item .description p {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                text-align: left;
+                color: #393939;
+                margin-top: 20px; }
+            body main .menu .ba-container .desert-info .fa-col-one .menu-item .price {
+              width: 18%;
+              font-family: "Montserrat", sans-serif;
+              font-weight: 700;
+              font-size: 85px;
+              text-align: center;
+              color: #fc4263; }
+              body main .menu .ba-container .desert-info .fa-col-one .menu-item .price span {
+                font-family: "EnglishwithIndianRupee", sans-serif;
+                font-size: 60px;
+                color: #fc4263;
+                vertical-align: text-top;
+                line-height: 1.5; }
+  body main .locations {
+    max-width: 100%;
+    background: url("../img/locations-bottom.png") top center no-repeat;
+    background-size: cover; }
+    body main .locations .ba-container {
+      padding-top: 1px;
+      padding-bottom: 50px; }
+      body main .locations .ba-container .location-text {
+        margin-top: -56px;
+        background-color: #efffff;
+        padding: 0 40px 20px 40px;
+        margin-bottom: 50px; }
+      body main .locations .ba-container h2 {
+        font-family: "AthenaoftheOcean", sans-serif;
+        font-size: 180px;
+        font-weight: normal;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 150px; }
+      body main .locations .ba-container .line {
+        width: 140px;
+        height: 2px;
+        border: 1px solid #fc4263;
+        margin: 0 auto;
+        margin-top: 22px; }
+      body main .locations .ba-container .locations-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between; }
+        @media (min-width: 375px) and (max-width: 375px) {
+          body main .locations .ba-container .locations-info {
+            flex-direction: column; } }
+        body main .locations .ba-container .locations-info .location-one {
+          width: 50%;
+          margin: 0 -20px 0 -20px; }
+          @media (min-width: 375px) and (max-width: 375px) {
+            body main .locations .ba-container .locations-info .location-one {
+              width: 100%; } }
+          body main .locations .ba-container .locations-info .location-one .location-address {
+            width: 100%;
+            height: 250px;
+            padding-top: 30px; }
+            body main .locations .ba-container .locations-info .location-one .location-address .location-city {
+              display: block;
+              text-align: center;
+              margin-top: -5px; }
+            body main .locations .ba-container .locations-info .location-one .location-address span {
+              display: inline;
+              margin: 0 20px;
+              font-size: 40px;
+              color: #fc4263; }
+            body main .locations .ba-container .locations-info .location-one .location-address h5 {
+              font-family: "Montserrat", sans-serif;
+              font-weight: 600;
+              font-size: 30px;
+              text-align: center;
+              margin-top: 20px;
+              text-transform: uppercase;
+              color: #878787;
+              display: inline; }
+            body main .locations .ba-container .locations-info .location-one .location-address p {
+              font-family: "Montserrat", sans-serif;
+              font-weight: 400;
+              font-size: 30px;
+              text-align: center;
+              color: #c3c3c3;
+              margin: 15px 0; }
+              @media (min-width: 375px) and (max-width: 375px) {
+                body main .locations .ba-container .locations-info .location-one .location-address p {
+                  font-size: 18px; } }
+          body main .locations .ba-container .locations-info .location-one .location-photo-one {
+            width: 100%;
+            height: 420px;
+            background: url("../img/location-one.png") center center no-repeat;
+            background-size: cover; }
+          body main .locations .ba-container .locations-info .location-one .location-photo-two {
+            width: 100%;
+            height: 420px;
+            background: url("../img/location-two.png") center center no-repeat;
+            background-size: cover; }
+      body main .locations .ba-container .lb-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%; }
+        body main .locations .ba-container .lb-inner h2 {
+          font-family: "Montserrat", sans-serif;
+          font-weight: 400;
+          font-size: 60px;
+          line-height: 1.2;
+          text-align: center;
+          letter-spacing: 1px;
+          color: #fff;
+          margin-top: 18px; }
+        body main .locations .ba-container .lb-inner .submit-form {
+          max-width: 1260px;
+          height: 100px;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: space-between;
+          margin: 74px auto;
+          text-align: center; }
+          body main .locations .ba-container .lb-inner .submit-form input {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            width: 900px;
+            height: 100%;
+            background-color: rgba(110, 110, 111, 0.2);
+            border-radius: 10px;
+            border: none;
+            color: #ffffff;
+            font-size: 28px;
+            padding: 0 15px; }
+            @media (min-width: 375px) and (max-width: 375px) {
+              body main .locations .ba-container .lb-inner .submit-form input {
+                width: 80%;
+                margin: auto;
+                margin-top: -65px; } }
+          body main .locations .ba-container .lb-inner .submit-form button {
+            width: 310px;
+            height: 100%;
+            margin-left: 40px;
+            background-color: #fc4263;
+            border-radius: 10px;
+            border: none;
+            color: #ffffff;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 28px;
+            text-transform: uppercase; }
+            @media (min-width: 375px) and (max-width: 375px) {
+              body main .locations .ba-container .lb-inner .submit-form button {
+                width: 80%;
+                margin: auto;
+                margin-top: 5px; } }
+  body footer {
+    width: 1920px;
+    max-width: 100%;
+    height: 600px;
+    position: relative; }
+    body footer .arrow-link {
+      position: absolute;
+      top: 420px;
+      left: 1755px; }
+      body footer .arrow-link .scroll-button {
+        height: 60px;
+        width: 60px;
+        padding: 13px;
+        background-color: transparent;
+        border-radius: 50%;
+        border: 2px solid #ffffff; }
+        body footer .arrow-link .scroll-button .arrow-up {
+          width: 0;
+          height: 0;
+          border-left: 15px solid transparent;
+          border-right: 15px solid transparent;
+          border-bottom: 25px solid #ffffff; }
+    body footer .upper-footer {
+      background-color: #272727;
+      width: 100%;
+      margin-top: -72px; }
+      body footer .upper-footer .ba-container {
+        display: block;
+        height: 450px; }
+        body footer .upper-footer .ba-container .social-networks {
+          margin: 0 auto;
+          width: 390px;
+          padding-top: 130px; }
+          @media (min-width: 375px) and (max-width: 375px) {
+            body footer .upper-footer .ba-container .social-networks {
+              width: 100%; } }
+          body footer .upper-footer .ba-container .social-networks ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0;
+            margin: 0; }
+            body footer .upper-footer .ba-container .social-networks ul li {
+              display: inline-block;
+              list-style-type: none; }
+              body footer .upper-footer .ba-container .social-networks ul li .snet {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                border: none;
+                background-color: #ffffff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around; }
+                body footer .upper-footer .ba-container .social-networks ul li .snet .fab {
+                  font-size: 50px;
+                  color: #fc4364; }
+        body footer .upper-footer .ba-container .page-navigation {
+          margin: 0 auto;
+          width: 775px;
+          padding-top: 45px; }
+          @media (min-width: 375px) and (max-width: 375px) {
+            body footer .upper-footer .ba-container .page-navigation {
+              width: 100%; } }
+          body footer .upper-footer .ba-container .page-navigation ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0;
+            margin: 0; }
+            body footer .upper-footer .ba-container .page-navigation ul li {
+              display: inline-block;
+              list-style-type: none; }
+              body footer .upper-footer .ba-container .page-navigation ul li a {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                font-size: 24px;
+                color: #ffffff;
+                text-decoration: none; }
+                @media (min-width: 375px) and (max-width: 375px) {
+                  body footer .upper-footer .ba-container .page-navigation ul li a {
+                    font-size: 16px; } }
+        body footer .upper-footer .ba-container .lower-navigation {
+          margin: 0 auto;
+          width: 540px;
+          padding-top: 15px; }
+          @media (min-width: 375px) and (max-width: 375px) {
+            body footer .upper-footer .ba-container .lower-navigation {
+              width: 80%; } }
+          body footer .upper-footer .ba-container .lower-navigation ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between; }
+            @media (min-width: 375px) and (max-width: 375px) {
+              body footer .upper-footer .ba-container .lower-navigation ul {
+                margin: 40px 0px;
+                margin-left: -48px; } }
+            body footer .upper-footer .ba-container .lower-navigation ul li {
+              display: inline-block;
+              list-style-type: none; }
+              @media (min-width: 375px) and (max-width: 375px) {
+                body footer .upper-footer .ba-container .lower-navigation ul li {
+                  margin: 0 4px; } }
+              body footer .upper-footer .ba-container .lower-navigation ul li a {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 300;
+                font-size: 20px;
+                color: #ffffff;
+                text-transform: uppercase;
+                text-decoration: none; }
+                @media (min-width: 375px) and (max-width: 375px) {
+                  body footer .upper-footer .ba-container .lower-navigation ul li a {
+                    font-size: 14px; } }
+              body footer .upper-footer .ba-container .lower-navigation ul li .separator {
+                width: 2px;
+                height: 20px;
+                background-color: #ffffff; }
+    body footer .lower-footer {
+      width: 100%;
+      background-color: #000000; }
+      body footer .lower-footer .ba-container {
+        display: block;
+        height: 150px;
+        text-align: center; }
+        body footer .lower-footer .ba-container h5 {
+          font-family: "Montserrat", sans-serif;
+          font-weight: 400;
+          font-size: 26px;
+          color: #ffffff;
+          text-transform: uppercase;
+          margin: 0;
+          padding-top: 35px; }
+          body footer .lower-footer .ba-container h5 span {
+            font-size: 32px; }
+          @media (min-width: 375px) and (max-width: 375px) {
+            body footer .lower-footer .ba-container h5 {
+              font-size: 21px; } }
+        body footer .lower-footer .ba-container p {
+          font-family: "Montserrat", sans-serif;
+          font-weight: 400;
+          font-size: 20px;
+          color: #ffffff;
+          text-transform: uppercase;
+          margin: 0;
+          padding-top: 8px; }
+
+/*# sourceMappingURL=styles.css.map */

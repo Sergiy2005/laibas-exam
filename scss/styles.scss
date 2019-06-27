@@ -1,0 +1,1456 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
+@font-face {
+  font-family: 'AthenaoftheOcean';
+  src: url('fonts/AthenaoftheOcean.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EnglishwithIndianRupee';
+  src: url('../fonts/EnglishwithIndianRupee.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+    body {
+      font-family: "Montserrat SemiBold", sans-serif;
+      background-color: #ffffff;
+      max-width: 100vw;
+      max-width: 1920px;
+      overflow-x: hidden;
+
+      header {
+
+        nav {
+          height: 180px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+          margin: 0;
+          padding: 0 55px;
+          background-color: transparent;
+          @media (min-width: 375px) and (max-width: 375px) {
+            flex-flow: column;
+          }
+
+
+          .logo {
+
+            @media (min-width: 375px) and (max-width: 375px) {
+              font-size: 120px;
+              padding-top: 0px;
+            }
+            a {
+              font-family: "AthenaoftheOcean", sans-serif;
+              text-decoration: none;
+              font-size: 150px;
+              color: #ffffff;
+              line-height: 10px;
+
+              @media (min-width: 1441px) and (max-width: 1600px) {
+                font-size: 80px;
+              }
+              @media (min-width: 375px) and (max-width: 375px) {
+                font-size: 120px;
+                padding-top: 80px;
+              }
+
+            }
+          }
+
+          .menu {
+
+            ul {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+
+              @media (min-width: 375px) and (max-width: 375px) {
+                flex-flow: column;
+                padding: 0;
+              }
+
+              li {
+                display: inline-block;
+                list-style-type: none;
+
+                @media (min-width: 375px) and (max-width: 375px) {
+                  padding: 2px 0;
+                }
+
+                a {
+                  text-decoration: none;
+                  font-family: "Montserrat", sans-serif;
+                  font-weight: 600;
+                  font-size: 24px;
+                  text-transform: uppercase;
+                  color: #ffffff;
+
+                  @media (min-width: 375px) and (max-width: 375px) {
+                    font-size: 20px;
+                  }
+                }
+
+                .dot {
+                  width: 6px;
+                  height: 6px;
+                  border-radius: 50%;
+                  background-color: #ffffff;
+                  margin: 0 50px;
+                }
+              }
+            }
+          }
+
+
+        }
+      }
+      main {
+        .hero {
+          max-width: 100%;
+          height: 1080px;
+          background: url("../img/hero-bg.jpg");
+          background-size: cover;
+          margin-top: -180px;
+
+          @media (min-width: 375px) and (max-width: 375px) {
+            height: 100%;
+          }
+
+          h1 {
+            font-family: "AthenaoftheOcean", sans-serif;
+            text-align: center;
+            color: #ffffff;
+            font-size: 450px;
+            margin: 0;
+            padding-top: 190px;
+            font-weight: normal;
+
+            @media (min-width: 375px) and (max-width: 375px) {
+              display: none;
+            }
+          }
+
+          h3 {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            margin-top: 43px;
+            text-align: center;
+            color: #ffffff;
+            font-size: 94px;
+            text-transform: uppercase;
+            letter-spacing: 20px;
+            @media (min-width: 375px) and (max-width: 375px) {
+              font-size: 36px;
+              letter-spacing: 8px;
+              padding-top: 375px;
+              padding-bottom: 100px;
+              margin: 0;
+            }
+          }
+
+
+        }
+        .reservations-about-bg {
+          max-width: 100%;
+          width: 100%;
+          height: 690px;
+          background-color: #f6f4f1;
+          padding: 1px 0;
+
+
+          .reservations-about {
+            max-width: 100%;
+            height: 100%;
+            position: relative;
+            margin: -56px 0;
+
+            .ba-container {
+              border-radius: 5px;
+              border: none;
+              margin: 0 auto;
+              margin-top: -60px;
+              z-index: 1;
+
+              .reservations-about-top {
+                max-width: 100%;
+                height: 100%;
+                border-radius: 5%;
+                border: none;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                @media (min-width: 375px) and (max-width: 375px) {
+                  flex-direction: column;
+                }
+
+                .reservations {
+                  width: 37%;
+                  height: 100%;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  @media (min-width: 375px) and (max-width: 375px) {
+                    width: 100%;
+                  }
+
+                  .reservations-info {
+                    width: 100%;
+                    height: 403px;
+                    background-color: #ffffff;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+
+
+
+
+                    h4 {
+                      font-family: "AthenaoftheOcean", sans-serif;
+                      color: #fc4263;
+                      font-size: 168px;
+                      font-weight: normal;
+                      margin: 0;
+                      margin-top: -40px;
+                      @media (min-width: 375px) and (max-width: 375px) {
+                        font-size: 140px;
+                      }
+
+                    }
+
+                    p {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 400;
+                      color: #a7a7a7;
+                      font-size: 21px;
+                      line-height: 32px;
+                      text-align: center;
+                      margin-top: -40px;
+                      padding: 0 20px;
+                      letter-spacing: 1.2px;
+                      margin-bottom: 0;
+
+                      @media (min-width: 1441px) and (max-width: 1600px) {
+                        font-size: 18px;
+                        letter-spacing: 0.5px;
+                      }
+
+                    }
+
+                    button {
+                      width: 320px;
+                      height: 70px;
+                      border-radius: 3px;
+                      border: 2px solid #fc4263;
+                      background-color: #ffffff;
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 500;
+                      text-transform: uppercase;
+                      font-size: 24px;
+                      color: #fc4263;
+                      margin-bottom: 10px;
+                    }
+
+                  }
+
+                  .reservations-photo {
+                    width: 100%;
+                    height: 403px;
+                    background: url("../img/res-photo.png") center center no-repeat;
+                    background-size: cover;
+                  }
+
+                }
+
+                .about {
+                  width: 63%;
+                  height: 100%;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  @media (min-width: 375px) and (max-width: 375px) {
+                    width: 100%;
+                  }
+
+
+                  .about-photo {
+                    width: 100%;
+                    height: 403px;
+                    background: url("../img/about-photo.png") center center no-repeat;
+                    background-size: cover;
+                  }
+
+                  .about-info {
+                    width: 100%;
+                    height: 403px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    background-color: #ffffff;
+
+                    h4 {
+                      font-family: "AthenaoftheOcean", sans-serif;
+                      color: #fc4263;
+                      font-size: 168px;
+                      font-weight: normal;
+                      margin: 0;
+                      margin-top: -30px;
+                    }
+
+                    p {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 400;
+                      color: #a7a7a7;
+                      font-size: 21px;
+                      line-height: 32px;
+                      text-align: center;
+                      margin-top: -50px;
+                      padding: 0 20px;
+                      letter-spacing: 1.2px;
+
+                      @media (min-width: 1441px) and (max-width: 1600px) {
+                        font-size: 18px;
+                        letter-spacing: 0.5px;
+                      }
+                      @media (min-width: 375px) and (max-width: 375px) {
+                        font-size: 14px;
+                      }
+
+                    }
+                  }
+                }
+              }
+
+            }
+          }
+        }
+        .our-specialities {
+          max-width: 100%;
+          height: 900px;
+          margin-top: -55px;
+          .specialities-photo {
+            width: 100%;
+            height: 100%;
+            background: url("../img/our-sps.png") center center no-repeat;
+            background-size: cover;
+            display: block;
+
+
+            h2 {
+              font-family: "AthenaoftheOcean", sans-serif;
+              color: #ffffff;
+              font-size: 297px;
+              padding-top: 145px;
+              margin: 0 auto;
+              text-align: center;
+              font-weight: normal;
+              line-height: 190px;
+            }
+
+          }
+        }
+        .dishes-bg {
+          max-width: 100%;
+          width: 100%;
+          height: 690px;
+          background-color: #f6f4f1;
+          padding: 1px 0;
+
+          @media (min-width: 375px) and (max-width: 375px) {
+            height: 100%;
+          }
+          .dishes {
+            max-width: 100%;
+            height: 826px;
+            margin-top: -56px;
+            @media (min-width: 375px) and (max-width: 375px) {
+              height: 100%;
+            }
+            .ba-container {
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              margin: 0 auto;
+              margin-top: -75px;
+              z-index: 1;
+
+              .first-row {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                @media (min-width: 375px) and (max-width: 375px) {
+                  flex-direction: column;
+                  height: 100%;
+                }
+
+                .dish {
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  width: 50%;
+                  height: 100%;
+
+                  @media (min-width: 375px) and (max-width: 375px) {
+                    width: 100%;
+                    flex-direction: column;
+                  }
+
+                  .dish-info {
+                    width: 50%;
+                    height: 100%;
+                    text-align: center;
+                    background-color: #ffffff;
+                    margin: 20px 0;
+
+                    @media (min-width: 375px) and (max-width: 375px) {
+                      width: 100%;
+                      margin: 0;
+                    }
+                    h5 {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 600;
+                      font-size: 30px;
+                      text-transform: uppercase;
+                      margin-top: 95px;
+                      letter-spacing: 4px;
+                      margin-top: 95px;
+                    }
+                    p {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 400;
+                      font-size: 24px;
+                      color: #474747;
+                      text-align: center;
+                      margin-top: -22px;
+                      padding: 0 15px;
+                      letter-spacing: 1.5px;
+                      line-height: 35px;
+
+                      @media (min-width: 1441px) and (max-width: 1600px) {
+                        font-size: 18px;
+                      }
+                      @media (min-width: 375px) and (max-width: 375px) {
+                        font-size: 21px;
+                      }
+                    }
+                    h6 {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 700;
+                      font-size: 24px;
+                      color: #fc4263;
+                      text-transform: uppercase;
+                      margin-top: 36px;
+                      letter-spacing: 4.5px;
+                      span {
+                        font-family: "EnglishwithIndianRupee", sans-serif!important;
+                        font-size: 24px;
+                        color: #fc4263;
+                      }
+                    }
+                  }
+                  .lazagna-photo {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    width: 50%;
+                    height: 100%;
+                    background: url("../img/lazagna.png") center center no-repeat;
+                    background-size: cover;
+                    @media (min-width: 375px) and (max-width: 375px) {
+                      width: 100%;
+                      flex-direction: column;
+                      padding-top: 100%;
+                    }
+                  }
+
+                }
+                .pizza {
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  width: 50%;
+                  height: 100%;
+
+                  @media (min-width: 375px) and (max-width: 375px) {
+                    width: 100%;
+                    flex-direction: column;
+                  }
+
+                  .dish-info {
+                    width: 50%;
+                    height: 100%;
+                    text-align: center;
+                    background-color: #ffffff;
+                    margin: 20px 0;
+
+                    @media (min-width: 375px) and (max-width: 375px) {
+                      width: 100%;
+                      margin: 0;
+                    }
+
+                    h5 {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 600;
+                      font-size: 30px;
+                      text-transform: uppercase;
+                      margin-top: 95px;
+                      letter-spacing: 4px;
+                      margin-top: 95px;
+                    }
+                    p {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 400;
+                      font-size: 24px;
+                      color: #474747;
+                      text-align: center;
+                      margin-top: -22px;
+                      padding: 0 15px;
+                      letter-spacing: 1.5px;
+                      line-height: 35px;
+
+
+                      @media (min-width: 1441px) and (max-width: 1600px) {
+                        font-size: 18px;
+                      }
+                      @media (min-width: 375px) and (max-width: 375px) {
+                        font-size: 21px;
+                      }
+                    }
+                    h6 {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 700;
+                      font-size: 24px;
+                      color: #fc4263;
+                      text-transform: uppercase;
+                      margin-top: 36px;
+                      letter-spacing: 4.5px;
+                      span {
+                        font-family: "EnglishwithIndianRupee", sans-serif!important;
+                        font-size: 24px;
+                        color: #fc4263;
+                      }
+                    }
+                  }
+                  .pizza-photo {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    width: 50%;
+                    height: 100%;
+                    background: url("../img/pizza.png") center center no-repeat;
+                    background-size: cover;
+
+                    @media (min-width: 375px) and (max-width: 375px) {
+                      width: 100%;
+                      flex-direction: column;
+                      padding-top: 100%;
+                    }
+                  }
+                }
+
+              }
+              .second-row {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                @media (min-width: 375px) and (max-width: 375px) {
+                  flex-direction: column;
+                  height: 100%;
+                }
+                .idlis {
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  width: 50%;
+                  height: 100%;
+
+                  @media (min-width: 375px) and (max-width: 375px) {
+                    width: 100%;
+                    flex-direction: column;
+                  }
+
+
+                  .idlis-photo {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    width: 50%;
+                    height: 100%;
+                    background: url("../img/idlis.png") center center no-repeat;
+                    background-size: cover;
+
+                    @media (min-width: 375px) and (max-width: 375px) {
+                      width: 100%;
+                      flex-direction: column;
+                      padding-top: 100%;
+                    }
+                  }
+                  .dish-info {
+                    width: 50%;
+                    height: 100%;
+                    text-align: center;
+                    background-color: #ffffff;
+                    margin: 20px 0;
+
+                    @media (min-width: 375px) and (max-width: 375px) {
+                      width: 100%;
+                      margin: 0;
+                    }
+
+                    h5 {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 600;
+                      font-size: 30px;
+                      text-transform: uppercase;
+                      margin-top: 95px;
+                      letter-spacing: 4px;
+                      margin-top: 95px;
+                    }
+                    p {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 400;
+                      font-size: 24px;
+                      color: #474747;
+                      text-align: center;
+                      margin-top: -22px;
+                      padding: 0 15px;
+                      letter-spacing: 1.5px;
+                      line-height: 35px;
+
+
+                      @media (min-width: 1441px) and (max-width: 1600px) {
+                        font-size: 18px;
+                      }
+                      @media (min-width: 375px) and (max-width: 375px) {
+                        font-size: 21px;
+                      }
+                    }
+                    h6 {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 700;
+                      font-size: 24px;
+                      color: #fc4263;
+                      text-transform: uppercase;
+                      margin-top: 36px;
+                      letter-spacing: 4.5px;
+                      span {
+                        font-family: "EnglishwithIndianRupee", sans-serif!important;
+                        font-size: 24px;
+                        color: #fc4263;
+                      }
+                    }
+                  }
+                }
+                .burger {
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  width: 50%;
+                  height: 100%;
+
+                  @media (min-width: 375px) and (max-width: 375px) {
+                    width: 100%;
+                    flex-direction: column;
+                  }
+
+                  .burger-photo {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    width: 50%;
+                    height: 100%;
+                    background: url("../img/burger.png") center center no-repeat;
+                    background-size: cover;
+
+                    @media (min-width: 375px) and (max-width: 375px) {
+                      width: 100%;
+                      flex-direction: column;
+                      padding-top: 100%;
+                    }
+                  }
+                  .dish-info {
+                    width: 50%;
+                    height: 100%;
+                    text-align: center;
+                    background-color: #ffffff;
+                    margin: 20px 0;
+
+                    @media (min-width: 375px) and (max-width: 375px) {
+                      width: 100%;
+                      margin: 0;
+                    }
+
+                    h5 {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 600;
+                      font-size: 30px;
+                      text-transform: uppercase;
+                      margin-top: 95px;
+                      letter-spacing: 4px;
+                      margin-top: 95px;
+                    }
+                    p {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 400;
+                      font-size: 24px;
+                      color: #474747;
+                      text-align: center;
+                      margin-top: -22px;
+                      padding: 0 15px;
+                      letter-spacing: 1.5px;
+                      line-height: 35px;
+
+
+                      @media (min-width: 1441px) and (max-width: 1600px) {
+                        font-size: 18px;
+                      }
+                      @media (min-width: 375px) and (max-width: 375px) {
+                        font-size: 21px;
+                      }
+                    }
+                    h6 {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 700;
+                      font-size: 24px;
+                      color: #fc4263;
+                      text-transform: uppercase;
+                      margin-top: 36px;
+                      letter-spacing: 4.5px;
+                      span {
+                        font-family: "EnglishwithIndianRupee", sans-serif!important;
+                        font-size: 24px;
+                        color: #fc4263;
+                      }
+                    }
+                  }
+                }
+
+              }
+            }
+          }
+        }
+        .barbeque {
+          max-width: 100%;
+          height: 1085px;
+          margin-top: -77px;
+          .barbeque-photo {
+            width: 100%;
+            height: 1085px;
+            background: url("../img/barbeque.png") center center no-repeat;
+            background-size: cover;
+          }
+        }
+        .menu {
+          max-width: 100%;
+          height: 1710px;
+          background: url("../img/menu-bg.png") center center no-repeat;
+          margin-top: 40px;
+
+          @media (min-width: 375px) and (max-width: 375px) {
+            display: none;
+          }
+
+          .ba-container {
+            padding: 0 55px;
+            h2 {
+              font-family: "AthenaoftheOcean", sans-serif;
+              font-size: 210px;
+              font-weight: normal;
+              text-align: center;
+              margin-top: -30px;
+
+            }
+            .line {
+              width: 140px;
+              height: 2px;
+              border: 1px solid #fc4263;
+              margin: 0 auto;
+              margin-top: -177px;
+            }
+            .fanda {
+              font-family: "Montserrat", sans-serif;
+              font-weight: 600;
+              font-size: 30px;
+              text-align: center;
+              margin: 30px;
+              padding-top: 35px;
+              text-transform: uppercase;
+              color: #878787;
+              letter-spacing: 2px;
+            }
+            .food-appetizers-info {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+              position: relative;
+              margin-top: -30px;
+              padding-top: 30px;
+              .abs {
+                position: absolute;
+                @media (min-width: 0px) and (max-width: 1919px) {
+                  display: none;
+
+                }
+
+              }
+
+              .item1 {
+                width: 338px;
+                height: 463px;
+                background: url("../img/item1.png")center no-repeat;
+                top: -470px;
+                left: -190px;
+              }
+              .item2 {
+                width: 189px;
+                height: 408px;
+                background: url("../img/item2.png") center no-repeat;
+                top: 260px;
+                left: -190px;
+              }
+              .item3 {
+                width: 311px;
+                height: 361px;
+                background: url("../img/item3.png") center no-repeat;
+                top: -316px;
+                left: 1420px;
+
+                @media (min-width: 1441px) and (max-width: 1600px) {
+                  left: 1120px
+
+                }
+              }
+              .item4 {
+                width: 147px;
+                height: 312px;
+                background: url("../img/item4.png") center no-repeat;
+                top: 370px;
+                left: 1585px;
+
+                @media (min-width: 1441px) and (max-width: 1600px) {
+                  left: 1285px
+
+                }
+              }
+              .item5 {
+                width: 290px;
+                height: 551px;
+                background: url("../img/item5.png") center no-repeat;
+                top: 360px;
+                left: -190px;
+              }
+              .item6 {
+                width: 326px;
+                height: 318px;
+                background: url("../img/item6.png") center no-repeat;
+                top: 440px;
+                left: 660px;
+
+                @media (min-width: 1441px) and (max-width: 1600px) {
+                  left: 820px
+
+                }
+              }
+              .item7 {
+                width: 286px;
+                height: 381px;
+                background: url("../img/item7.png") center no-repeat;
+                top: 420px;
+                left: 1445px;
+
+                @media (min-width: 1441px) and (max-width: 1600px) {
+                  left: 1145px
+
+                }
+              }
+
+              .fa-col-one {
+                width: 42%;
+                margin: -20px 30px 0 20px;
+                .menu-item {
+                  height: 85px;
+                  width: 100%;
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                  margin-top: 55px;
+                  .description {
+                    height: 100%;
+                    width: 72%;
+                    h6 {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 600;
+                      font-size: 27px;
+                      text-align: left;
+                      text-transform: uppercase;
+                      margin: 0;
+                    }
+                    p {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 400;
+                      font-size: 18px;
+                      text-align: left;
+                      color: #393939;
+                      margin-top: 20px;
+                    }
+                  }
+                  .price {
+                    width: 18%;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 700;
+                    font-size: 85px;
+                    text-align: center;
+                    color: #fc4263;
+                    span {
+                      font-family: "EnglishwithIndianRupee", sans-serif;
+                      font-size: 60px;
+                      color: #fc4263;
+                      vertical-align: text-top;
+                      line-height: 1.5;
+                    }
+                  }
+                }
+              }
+            }
+            .deserts {
+              font-family: "Montserrat", sans-serif;
+              font-weight: 600;
+              font-size: 30px;
+              text-align: center;
+              margin: 40px;
+              padding-top: 85px;
+              text-transform: uppercase;
+              color: #878787;
+              letter-spacing: 2px;
+            }
+            .desert-info {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+              position: relative;
+              margin-top: -60px;
+              padding-top: 50px;
+              .abs {
+                position: absolute;
+                @media (min-width: 0px) and (max-width: 1919px) {
+                  display: none;
+                }
+              }
+              .item1 {
+                width: 338px;
+                height: 463px;
+                background: url("../img/item1.png")center no-repeat;
+                top: -470px;
+                left: -190px;
+              }
+              .item2 {
+                width: 189px;
+                height: 408px;
+                background: url("../img/item2.png") center no-repeat;
+                top: 260px;
+                left: -190px;
+              }
+              .item3 {
+                width: 311px;
+                height: 361px;
+                background: url("../img/item3.png") center no-repeat;
+                top: -316px;
+                left: 1420px;
+              }
+              .item4 {
+                width: 147px;
+                height: 312px;
+                background: url("../img/item4.png") center no-repeat;
+                top: 370px;
+                left: 1585px;
+              }
+              .item5 {
+                width: 290px;
+                height: 551px;
+                background: url("../img/item5.png") center no-repeat;
+                top: 360px;
+                left: -190px;
+              }
+              .item6 {
+                width: 326px;
+                height: 318px;
+                background: url("../img/item6.png") center no-repeat;
+                top: 440px;
+                left: 660px;
+
+                @media (min-width: 1441px) and (max-width: 1600px) {
+                  left: 360px
+
+                }
+              }
+              .item7 {
+                width: 286px;
+                height: 381px;
+                background: url("../img/item7.png") center no-repeat;
+                top: 420px;
+                left: 1445px;
+
+                @media (min-width: 1441px) and (max-width: 1600px) {
+                  left: 1145px
+
+                }
+              }
+
+              .fa-col-one {
+                width: 42%;
+                margin: -20px 30px 0 20px;
+                .menu-item {
+                  height: 85px;
+                  width: 100%;
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                  margin-top: 55px;
+                  .description {
+                    height: 100%;
+                    width: 72%;
+                    h6 {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 600;
+                      font-size: 27px;
+                      text-align: left;
+                      text-transform: uppercase;
+                      margin: 0;
+                    }
+                    p {
+                      font-family: "Montserrat", sans-serif;
+                      font-weight: 400;
+                      font-size: 18px;
+                      text-align: left;
+                      color: #393939;
+                      margin-top: 20px;
+                    }
+                  }
+                  .price {
+                    width: 18%;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 700;
+                    font-size: 85px;
+                    text-align: center;
+                    color: #fc4263;
+                    span {
+                      font-family: "EnglishwithIndianRupee", sans-serif;
+                      font-size: 60px;
+                      color: #fc4263;
+                      vertical-align: text-top;
+                      line-height: 1.5;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .locations {
+          max-width: 100%;
+          background: url("../img/locations-bottom.png") top center no-repeat;
+          background-size: cover;
+
+          .ba-container {
+            padding-top: 1px;
+            padding-bottom: 50px;
+
+            .location-text{
+              margin-top: -56px;
+              background-color: #efffff;
+              padding: 0 40px 20px 40px;
+              margin-bottom: 50px;
+            }
+
+            h2 {
+              font-family: "AthenaoftheOcean", sans-serif;
+              font-size: 180px;
+              font-weight: normal;
+              text-align: center;
+              margin: 0 auto;
+              line-height: 150px;
+            }
+            .line {
+              width: 140px;
+              height: 2px;
+              border: 1px solid #fc4263;
+              margin: 0 auto;
+              margin-top: 22px;
+            }
+            .locations-info {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+              @media (min-width: 375px) and (max-width: 375px) {
+                flex-direction: column;
+              }
+              .location-one {
+                width: 50%;
+                margin: 0 -20px 0 -20px;
+                @media (min-width: 375px) and (max-width: 375px) {
+                  width: 100%;
+                }
+                .location-address {
+                  width: 100%;
+                  height: 250px;
+                  padding-top: 30px;
+                  .location-city {
+                    display: block;
+                    text-align: center;
+                    margin-top: -5px;
+                  }
+                  span {
+                    display: inline;
+                    margin: 0 20px;
+                    font-size: 40px;
+                    color:  #fc4263;
+                  }
+                  h5 {
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 600;
+                    font-size: 30px;
+                    text-align: center;
+                    margin-top: 20px;
+                    text-transform: uppercase;
+                    color: #878787;
+                    display: inline;
+                  }
+                  p {
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 400;
+                    font-size: 30px;
+                    text-align: center;
+                    color: #c3c3c3;
+                    margin: 15px 0;
+                    @media (min-width: 375px) and (max-width: 375px) {
+                      font-size: 18px;
+                    }
+                  }
+                }
+                .location-photo-one {
+                  width: 100%;
+                  height: 420px;
+                  background: url("../img/location-one.png") center center no-repeat;
+                  background-size: cover;
+                }
+                .location-photo-two {
+                  width: 100%;
+                  height: 420px;
+                  background: url("../img/location-two.png") center center no-repeat;
+                  background-size: cover;
+                }
+              }
+            }
+
+            .lb-inner {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              width: 100%;
+
+              h2 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-size: 60px;
+                line-height: 1.2;
+                text-align: center;
+                letter-spacing: 1px;
+                color: #fff;
+                margin-top: 18px;
+              }
+
+              .submit-form {
+                max-width: 1260px;
+                height: 100px;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+                justify-content: space-between;
+                margin: 74px auto;
+                text-align: center;
+
+                input {
+                  font-family: "Montserrat", sans-serif;
+                  font-weight: 600;
+                  width: 900px;
+                  height: 100%;
+                  background-color: rgba(110, 110, 111, 0.2);
+                  border-radius: 10px;
+                  border: none;
+                  color: #ffffff;
+                  font-size: 28px;
+                  padding: 0 15px;
+                  @media (min-width: 375px) and (max-width: 375px) {
+                    width: 80%;
+                    margin: auto;
+                    margin-top: -65px;
+                  }
+
+                }
+
+                button {
+                  width: 310px;
+                  height: 100%;
+                  margin-left: 40px;
+                  background-color: #fc4263;
+                  border-radius: 10px;
+                  border: none;
+                  color: #ffffff;
+                  font-family: "Montserrat", sans-serif;
+                  font-weight: 600;
+                  font-size: 28px;
+                  text-transform: uppercase;
+
+                  @media (min-width: 375px) and (max-width: 375px) {
+                    width: 80%;
+                    margin: auto;
+                    margin-top: 5px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+      }
+
+      footer {
+        width: 1920px;
+        max-width: 100%;
+        height: 600px;
+        position: relative;
+        .arrow-link {
+          position: absolute;
+          top: 420px;
+          left: 1755px;
+          .scroll-button {
+            height: 60px;
+            width: 60px;
+            padding: 13px;
+            background-color: transparent;
+            border-radius: 50%;
+            border: 2px solid #ffffff;
+
+            .arrow-up {
+              width: 0;
+              height: 0;
+              border-left: 15px solid transparent;
+              border-right: 15px solid transparent;
+              border-bottom: 25px solid #ffffff;
+            }
+          }
+        }
+        .upper-footer {
+          background-color: #272727;
+          width: 100%;
+          margin-top: -72px;
+          .ba-container {
+            display: block;
+            height: 450px;
+
+
+            .social-networks {
+              margin: 0 auto;
+              width: 390px;
+              padding-top: 130px;
+
+              @media (min-width: 375px) and (max-width: 375px) {
+                width: 100%;
+              }
+
+              ul {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0;
+                margin: 0;
+
+                li {
+                  display: inline-block;
+                  list-style-type: none;
+
+                  .snet {
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    border: none;
+                    background-color: #ffffff;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .fab {
+                      font-size: 50px;
+                      color: #fc4364;
+
+                    }
+
+                  }
+
+                }
+
+              }
+
+            }
+
+            .page-navigation {
+              margin: 0 auto;
+              width: 775px;
+              padding-top: 45px;
+
+              @media (min-width: 375px) and (max-width: 375px) {
+                width: 100%;
+              }
+
+              ul {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0;
+                margin: 0;
+
+                li {
+                  display: inline-block;
+                  list-style-type: none;
+
+                  a {
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 500;
+                    font-size: 24px;
+                    color: #ffffff;
+                    text-decoration: none;
+
+                    @media (min-width: 375px) and (max-width: 375px) {
+                      font-size: 16px;
+                    }
+                  }
+                }
+
+              }
+
+            }
+
+            .lower-navigation {
+              margin: 0 auto;
+              width: 540px;
+              padding-top: 15px;
+
+              @media (min-width: 375px) and (max-width: 375px) {
+                width: 80%;
+              }
+
+              ul {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+                @media (min-width: 375px) and (max-width: 375px) {
+                  margin: 40px 0px;
+                  margin-left: -48px;
+                }
+
+                li {
+                  display: inline-block;
+                  list-style-type: none;
+                  @media (min-width: 375px) and (max-width: 375px) {
+                    margin: 0 4px;
+                  }
+
+                  a {
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 300;
+                    font-size: 20px;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                    text-decoration: none;
+
+                    @media (min-width: 375px) and (max-width: 375px) {
+                      font-size: 14px;
+                    }
+                  }
+
+                  .separator {
+                    width: 2px;
+                    height: 20px;
+                    background-color: #ffffff;
+                  }
+                }
+
+              }
+
+            }
+          }
+        }
+        .lower-footer {
+          width: 100%;
+          background-color: #000000;
+          .ba-container {
+            display: block;
+            height: 150px;
+            text-align: center;
+            h5 {
+              font-family: "Montserrat", sans-serif;
+              font-weight: 400;
+              font-size: 26px;
+              color: #ffffff;
+              text-transform: uppercase;
+              margin: 0;
+              padding-top: 35px;
+              span {
+                font-size: 32px;
+              }
+
+              @media (min-width: 375px) and (max-width: 375px) {
+                font-size: 21px;
+              }
+            }
+            p {
+              font-family: "Montserrat", sans-serif;
+              font-weight: 400;
+              font-size: 20px;
+              color: #ffffff;
+              text-transform: uppercase;
+              margin: 0;
+              padding-top: 8px;
+            }
+          }
+        }
+      }
+    }
+
+
+
+
+
+
+
+
+
+
